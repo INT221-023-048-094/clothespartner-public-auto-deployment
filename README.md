@@ -4,3 +4,4 @@
 ## Logging
 * First Try @29-4-2021 11:29
 * Fix typo & test @29-4-2021 11:53
+* Update CORS config on Spring Boot @29-4-2021 12:30
