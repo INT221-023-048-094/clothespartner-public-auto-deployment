@@ -1,0 +1,23 @@
+name: semi-auto-deployment
+on: [push]
+jobs:
+  deploy-prod:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Semi-Auto Deployment on Azure with Latest Code from All Repos
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.CP_VM_HOST }}
+          username: ${{ secrets.CP_VM_USERNAME }}
+          key: ${{ secrets.CP_PRIVATE_KEY }}
+          script: |
+            [ ! -d clothespartner-devops ] && git clone git@github.com:INT221-023-048-094/clothespartner-devops.git
+            cd clothespartner-devops
+            sudo docker-compose down
+            [ ! -d clothespartner-front-end ] && git clone git@github.com:INT221-023-048-094/clothespartner-front-end.git
+            cd clothespartner-front-end && git pull && cd ..
+            [ ! -d clothespartner-database ] && git clone git@github.com:INT221-023-048-094/clothespartner-database.git
+            cd clothespartner-database && git pull && cd ..
+            [ ! -d clothespartner-back-end ] && git clone git@github.com:INT221-023-048-094/clothespartner-back-end.git
+            cd clothespartner-back-end && git pull && cd ..
+            sudo docker-compose up --build -d
