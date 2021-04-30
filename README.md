@@ -15,3 +15,4 @@
 * Add TLS Support (Partially Hardcoded) (Github Actions Fixed!) @30-4-2021 13:12
 * Fix TLS Support (Partially Hardcoded) @30-4-2021 13:17
 * Fix Host and Port for HTTPS @30-4-2021 23:53
+* Block Direct IP Access (when using tls) @1-5-2021 0:13
