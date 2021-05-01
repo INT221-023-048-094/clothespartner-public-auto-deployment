@@ -18,3 +18,4 @@
 * Block Direct IP Access (when using tls) @1-5-2021 0:13
 * Remove Useless Comments + Add Useful Comments in Backend's Source Code @1-5-2021 10:10
 * Update Backend's Dockerfile to use maven base image at build stage and take advantage of cached Docker layers @1-5-2021 10:42
+* Improve Github Actions Logic @1-5-2021 10:57

@@ -12,8 +12,7 @@ jobs:
           key: ${{ secrets.CP_PRIVATE_KEY }}
           script: |
             [ ! -d clothespartner-devops ] && git clone git@github.com:INT221-023-048-094/clothespartner-devops.git
-            cd clothespartner-devops && git pull
-            sudo docker-compose down
+            cd clothespartner-devops && sudo docker-compose down && git pull
             [ ! -d clothespartner-front-end ] && git clone git@github.com:INT221-023-048-094/clothespartner-front-end.git
             cd clothespartner-front-end && git pull && cd ..
             [ ! -d clothespartner-database ] && git clone git@github.com:INT221-023-048-094/clothespartner-database.git
