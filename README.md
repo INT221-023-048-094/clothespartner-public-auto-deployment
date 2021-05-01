@@ -16,3 +16,5 @@
 * Fix TLS Support (Partially Hardcoded) @30-4-2021 13:17
 * Fix Host and Port for HTTPS @30-4-2021 23:53
 * Block Direct IP Access (when using tls) @1-5-2021 0:13
+* Remove Useless Comments + Add Useful Comments in Backend's Source Code @1-5-2021 10:10
+* 
