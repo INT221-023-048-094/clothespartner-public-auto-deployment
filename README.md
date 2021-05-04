@@ -21,3 +21,4 @@
 * Improve Github Actions Logic @1-5-2021 10:57
 * Change Product Card Animation @1-5-2021 21:00
 * Set Always Scroll Top on Route Change @1-5-2021 23:27
+* Remove Unused Codes @4-5-2021 14:50
