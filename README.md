@@ -23,3 +23,4 @@
 * Set Always Scroll Top on Route Change @1-5-2021 23:27
 * Remove Unused Codes @4-5-2021 14:50
 * Fix Problem with 'Em Dash' in DB's .sql init file(s) -- Reset DB Storage, too @6-5-2021 15:13
+* DB's Security Enhancement (One-Time Password for root & Only DML Privs on MYSQL_DATABASE for MYSQL_USER) @7-5-2021 0:41
