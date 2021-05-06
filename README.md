@@ -22,3 +22,4 @@
 * Change Product Card Animation @1-5-2021 21:00
 * Set Always Scroll Top on Route Change @1-5-2021 23:27
 * Remove Unused Codes @4-5-2021 14:50
+* Fix Problem with 'Em Dash' in DB's .sql init file(s) -- Reset DB Storage, too @6-5-2021 15:13
