@@ -26,3 +26,4 @@
 * DB's Security Enhancement (One-Time Password for root & Only DML Privs on MYSQL_DATABASE for MYSQL_USER) @7-5-2021 0:41
 * Improve Frontend's Docker Image Building Performance (using .dockerignore) @8-5-2021 18:46
 * Backend now use ZonedDateTime instead of LocalDateTime @8-5-2021 19:23
+* Try deploying after adding DevOps' meaningful comments @8-5-2021 23:44
