@@ -27,3 +27,4 @@
 * Improve Frontend's Docker Image Building Performance (using .dockerignore) @8-5-2021 18:46
 * Backend now use ZonedDateTime instead of LocalDateTime @8-5-2021 19:23
 * Try deploying after adding DevOps' meaningful comments @8-5-2021 23:44
+* Improve Frontend's Docker Image Building Performance (adding .dockerignore content) @8-5-2021 23:51
