@@ -29,3 +29,4 @@
 * Try deploying after adding DevOps' meaningful comments @8-5-2021 23:44
 * Improve Frontend's Docker Image Building Performance (adding .dockerignore content) @8-5-2021 23:51
 * Try Resetting All Containers @12-5-2021 10:55
+* Presentation Demo: Down->Build->Up @12-5-2021 15:00
